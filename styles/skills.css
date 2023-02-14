@@ -1,0 +1,36 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.skills__item {
+    flex: 0 0 25%;
+    margin-top: 45px;
+    text-align: center;
+}
+.skills_image {
+    margin: 0 auto;
+    width: 50%;
+}
+.skills__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .section__skills {
+        padding: 25px;
+    }
+}
+@media (max-width: 500px) {
+    .skills__item {
+        flex: 0 0 50%;
+        margin-top: 25px;
+        text-align: center;
+    }
+}
